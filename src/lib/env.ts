@@ -34,7 +34,10 @@ let cached: ServerEnv | null = null;
 
 export function serverEnv(): ServerEnv {
   if (cached) return cached;
-  const parsed = serverSchema.safeParse(process.env);
+  // Hosting panels often keep variables with an empty value; treat them as unset
+  // so an empty optional field does not stop the server.
+  const raw = Object.fromEntries(Object.entries(process.env).filter(([, v]) => v !== ""));
+  const parsed = serverSchema.safeParse(raw);
   if (!parsed.success) {
     const fields = parsed.error.issues.map((i) => i.path.join(".")).join(", ");
     throw new Error(`Nieprawidłowa konfiguracja środowiska (${fields}). Zobacz .env.example.`);
