@@ -1,0 +1,10 @@
+# Copy to $STACK/postgrest.conf. db-max-rows matches Supabase Cloud's default
+# (API max rows = 1000), so local tests catch reads that would be cut off.
+db-uri = "postgres://authenticator:postgres@localhost:54322/postgres"
+db-schemas = "public"
+db-anon-role = "anon"
+jwt-secret = "super-secret-jwt-token-with-at-least-32-characters-long"
+server-port = 3001
+server-host = "127.0.0.1"
+db-channel-enabled = true
+db-max-rows = 1000

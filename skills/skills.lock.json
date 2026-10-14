@@ -1,0 +1,430 @@
+{
+  "generated": "2026-10-14",
+  "skills": {
+    "strategy.brand-analysis": {
+      "version": "1.0.0",
+      "file": "brand-strategy/brand-analysis.md",
+      "sha256": "901f8d1c592de16cbe5d75698afca816b1bd3a1cb223d78a9e8274246cabb105"
+    },
+    "brand.consistency-variety": {
+      "version": "1.0.0",
+      "file": "brand-strategy/consistency-variety.md",
+      "sha256": "b459c809a1ab50ddbe26457e111bbc0530447a7c06c4b615662c2275210c9c41"
+    },
+    "strategy.marketing-director": {
+      "version": "1.0.0",
+      "file": "brand-strategy/marketing-director.md",
+      "sha256": "c45346ccba19239201145356e078a17afdaa8ad44785cbc4ad3e19b2d64997ed"
+    },
+    "brand.studio-guidelines": {
+      "version": "1.0.0",
+      "file": "brand-strategy/studio-guidelines.md",
+      "sha256": "4e7e353c5572da2ff21e4fda670e2098e9643a8c3f7657e063ef0a8ddb115a06"
+    },
+    "brand.style-bold-contemporary": {
+      "version": "1.0.0",
+      "file": "brand-strategy/style-bold-contemporary.md",
+      "sha256": "f3559df594b7d975c773306190e12a37c9b30a91bce7bb2bd6c367db8a50792c"
+    },
+    "brand.style-elegant-corporate": {
+      "version": "1.0.0",
+      "file": "brand-strategy/style-elegant-corporate.md",
+      "sha256": "671f874a82461f11e3eb2c294fa1123f7662a1f1fea0f5a96c1b13a9e9f15207"
+    },
+    "brand.style-luxury": {
+      "version": "1.0.0",
+      "file": "brand-strategy/style-luxury.md",
+      "sha256": "1b8b3cac54767e69e27cff95997d16f7fdee05fe901217cb2d9120ceea5f130b"
+    },
+    "brand.style-modern-minimal": {
+      "version": "1.0.0",
+      "file": "brand-strategy/style-modern-minimal.md",
+      "sha256": "10a656c03939f32d6de0b2308edc3a8b066dd0bc643b2b41970e24bd89a4a830"
+    },
+    "brand.style-warm-lifestyle": {
+      "version": "1.0.0",
+      "file": "brand-strategy/style-warm-lifestyle.md",
+      "sha256": "4036783e0f2adef854ad4abd5e5b15bd49b0f5ef058058ac95cf07aa4521e98a"
+    },
+    "brand.voice-application": {
+      "version": "1.0.0",
+      "file": "brand-strategy/voice-application.md",
+      "sha256": "373058e266f5a4cd04b1e6be1feb4625de2e7d6d7a04c2f8b651a9ba06435d91"
+    },
+    "strategy.campaign-director": {
+      "version": "1.0.0",
+      "file": "content-strategy/campaign-director.md",
+      "sha256": "3e31eb4106aee4b2e3ab6b42e78c493d31d194514911f3ba9c23f76b58262fdc"
+    },
+    "strategy.campaign-planning": {
+      "version": "1.0.0",
+      "file": "content-strategy/campaign-planning.md",
+      "sha256": "5f20d61657bc2ffe9c2de5f2f83553d759e8868ad9452cb5f28f9f7e5330e66c"
+    },
+    "strategy.content-pillars": {
+      "version": "1.0.0",
+      "file": "content-strategy/content-pillars.md",
+      "sha256": "c5896fc5437895d433fe3f2997678ee32c12957d2544af4b98250efd0fcea387"
+    },
+    "strategy.expert-communication": {
+      "version": "1.0.0",
+      "file": "content-strategy/expert-communication.md",
+      "sha256": "225d261193bdac4c695c6ddd03483f4db6df45d176a16c4197d133a6e2f32abc"
+    },
+    "strategy.format-goal-fit": {
+      "version": "1.0.0",
+      "file": "content-strategy/format-goal-fit.md",
+      "sha256": "6a6920a8b489d4b1d5d6aacde8487d545cf7280528a75f5d6f91d4ac0c25f21f"
+    },
+    "strategy.funnel": {
+      "version": "1.0.0",
+      "file": "content-strategy/funnel.md",
+      "sha256": "3f9337f77478ce719fed5e4ba2709e73ecb3cff5df8c30b5b4a096078c1d3e63"
+    },
+    "strategy.monthly-autopilot": {
+      "version": "1.0.0",
+      "file": "content-strategy/monthly-autopilot.md",
+      "sha256": "544d0b0651022e6eed97e9da5a7f16dd3eef885503b325e4604f28725842de5e"
+    },
+    "strategy.publishing": {
+      "version": "1.0.0",
+      "file": "content-strategy/publishing-strategy.md",
+      "sha256": "38630dc6b0b2e669c87cbc3d8cda18d52fcf2ccb9607129b166c3dda8c8873e2"
+    },
+    "copy.aida": {
+      "version": "1.0.0",
+      "file": "copywriting/aida.md",
+      "sha256": "a261015c27ec8295f83c2eab30b20ac1a729fef55b0015729709827de4a94076"
+    },
+    "copy.audience-language": {
+      "version": "1.0.0",
+      "file": "copywriting/audience-language.md",
+      "sha256": "209b7d12b6f402289e07af43b095a5ae31c9ffb69a083cb2f344638661c6ff78"
+    },
+    "copy.bab": {
+      "version": "1.0.0",
+      "file": "copywriting/bab.md",
+      "sha256": "0b3434400db9c7c4d5dca9ae413618c10003efa138a66358284811846530321a"
+    },
+    "copy.benefit-persuasion": {
+      "version": "1.0.0",
+      "file": "copywriting/benefit-persuasion.md",
+      "sha256": "c66529fdcde224c84276b9d6e27fdba522ded61e91b19ef21999829839d1a95e"
+    },
+    "copy.cta": {
+      "version": "1.0.0",
+      "file": "copywriting/cta.md",
+      "sha256": "9546c9f2335d7db24c5b526c8c2edc7a9d168edd3d17f5bce51b9e5eb61da162"
+    },
+    "copy.emotional-rational": {
+      "version": "1.0.0",
+      "file": "copywriting/emotional-rational.md",
+      "sha256": "37ce814434a17163c2ce198675477a19a4a4ffe9075c5826c15762973f0da76c"
+    },
+    "copy.fab": {
+      "version": "1.0.0",
+      "file": "copywriting/fab.md",
+      "sha256": "802d28e1ec25433faccf4562c084c2f872b1f9a549f92964898deec63f98fb2f"
+    },
+    "copy.headlines": {
+      "version": "1.0.0",
+      "file": "copywriting/headlines.md",
+      "sha256": "c8e0c51e0422653a0a376f5e99e2ac84106ea49f3ab02696004a2f61398dc47c"
+    },
+    "copy.pas": {
+      "version": "1.0.0",
+      "file": "copywriting/pas.md",
+      "sha256": "af647f1f17848145cda0f8c3cb7ffc7392355dc80df2307b6c3f3c75013f25c6"
+    },
+    "copy.storytelling": {
+      "version": "1.0.0",
+      "file": "copywriting/storytelling.md",
+      "sha256": "99a021de35ee27d4186149219f5ca304c45f9d34109946838a025d8046b85247"
+    },
+    "core.claims-compliance": {
+      "version": "1.0.0",
+      "file": "core/claims-compliance.md",
+      "sha256": "586843ad01ab6b509d891a9847a59d0029db56b4102c243c79950e5068d404c3"
+    },
+    "core.fact-integrity": {
+      "version": "1.0.0",
+      "file": "core/fact-integrity.md",
+      "sha256": "fc8ef82a00c08422738d7a04ed07b8e5721997a33415c906664d24509d4af6f2"
+    },
+    "core.natural-polish": {
+      "version": "1.0.0",
+      "file": "core/natural-polish.md",
+      "sha256": "3c0f66f25fd9e7bb4415b7c129dcea4479946158dc5c75be31f2942a7a0535c0"
+    },
+    "core.untrusted-input": {
+      "version": "1.0.0",
+      "file": "core/untrusted-input.md",
+      "sha256": "2b0a34a55cc0b1d6ee41479c0a865cd374b13cbbca2fd39cac0a0a873e1c3205"
+    },
+    "design.carousel-visual-narrative": {
+      "version": "1.0.0",
+      "file": "design/carousel-visual-narrative.md",
+      "sha256": "165461d9b2949f607e970cc82d05bd418d8d72393635129532f3147f857e4be3"
+    },
+    "design.creative-variants": {
+      "version": "1.0.1",
+      "file": "design/creative-variants.md",
+      "sha256": "457e4c4e48a450e0b737ef937a91fa42563a47c90736b2f568449fd6ef175949"
+    },
+    "design.graphic-copy": {
+      "version": "1.0.0",
+      "file": "design/graphic-copy.md",
+      "sha256": "4ddb94e5153bc2841e8f00202fa571b9669d45e39707ef9307e56a020b4ecacb"
+    },
+    "design.typography-hierarchy": {
+      "version": "1.0.0",
+      "file": "design/typography-hierarchy.md",
+      "sha256": "ce92f053569182adfe7fedc16b52e1f2a179779e095815f2d077cdcbb99a2f35"
+    },
+    "email.structure": {
+      "version": "1.0.0",
+      "file": "email/email-structure.md",
+      "sha256": "12a514e2ccfa3c60fb01e5580a4a036c2345a4ae22b09b041bc340dd66bffe49"
+    },
+    "email.newsletter": {
+      "version": "1.0.0",
+      "file": "email/newsletter.md",
+      "sha256": "e92b84334fa0bf62f1ec67e4bc922c4e69ec55cd1ff1f61b5d9c75283f116750"
+    },
+    "imported.mks.ai-tells": {
+      "version": "1.0.0",
+      "file": "imported/marketingskills/ai-tells.md",
+      "sha256": "c003a16ef63fa045ba199151b009c5b5420ad8ee9fdc3dca539e54f9d6c64b92"
+    },
+    "imported.mks.carousel-frameworks": {
+      "version": "1.0.0",
+      "file": "imported/marketingskills/carousel-frameworks.md",
+      "sha256": "6a47aeeea534f9529fae37616b3b5837353f546da796769e820a892b5bcb0d21"
+    },
+    "imported.mks.email-principles": {
+      "version": "1.0.0",
+      "file": "imported/marketingskills/email-principles.md",
+      "sha256": "464737f80f9bc17126d85131e09e635e97fe1a1c034d18ef009e2b6e222859ef"
+    },
+    "imported.mks.hook-system": {
+      "version": "1.0.0",
+      "file": "imported/marketingskills/hook-system.md",
+      "sha256": "8dc82e6f89ffc1c5d5a27b7b2a638a730a75236cc1ac2064632a42e6b302f089"
+    },
+    "imported.mks.lead-magnets": {
+      "version": "1.0.0",
+      "file": "imported/marketingskills/lead-magnets.md",
+      "sha256": "32ae9a76aaa6664797d0c2ef576a8876789956e4b54f0f9e471efd904fbcaadd"
+    },
+    "imported.mks.marketing-psychology": {
+      "version": "1.0.0",
+      "file": "imported/marketingskills/marketing-psychology.md",
+      "sha256": "2ff4e8400d8fbed13cd1e35a596cfeae00db91be7059818708c466b78e60abec"
+    },
+    "imported.mks.searchable-shareable": {
+      "version": "1.0.0",
+      "file": "imported/marketingskills/searchable-shareable.md",
+      "sha256": "235dc53704484dd696181f67d5ce92886415085fd14ffb42bbc074f6cef2494c"
+    },
+    "imported.mks.seven-sweeps": {
+      "version": "1.0.0",
+      "file": "imported/marketingskills/seven-sweeps.md",
+      "sha256": "3e912de65dca31a4fe589b3add556bca0528ec0eea766ac869276846694ae53e"
+    },
+    "imported.mks.social-tells": {
+      "version": "1.0.0",
+      "file": "imported/marketingskills/social-tells.md",
+      "sha256": "793a0ee0518fb7f19c2a8ed1f6369752e8a05348d51ab91696d222e91ee5c07e"
+    },
+    "perf.ab-testing": {
+      "version": "1.0.0",
+      "file": "performance-marketing/ab-testing.md",
+      "sha256": "3b408e7386e1280a988d1f4b8c6837c53933b17478f187898c7c00c88da30ce9"
+    },
+    "perf.ad-creative-angles": {
+      "version": "1.0.0",
+      "file": "performance-marketing/ad-creative-angles.md",
+      "sha256": "c2b855ac5b6a9cc6e8a01e9aaafd4b274491749d046fa6a0367d164b9c33b7cc"
+    },
+    "perf.audience-segmentation": {
+      "version": "1.0.0",
+      "file": "performance-marketing/audience-segmentation.md",
+      "sha256": "5f755fc3173a7507c7ed060a5ff99b41757e390247fb2fcf284337661da5f5ee"
+    },
+    "perf.conversion-copy": {
+      "version": "1.0.0",
+      "file": "performance-marketing/conversion-copy.md",
+      "sha256": "3782438e5b30b60a91a6f5046cfaedb1ce11e29ae641b3dfedb48ec797f3338f"
+    },
+    "perf.follow-up": {
+      "version": "1.0.0",
+      "file": "performance-marketing/follow-up.md",
+      "sha256": "25956830a8a4ae4044fbea9e1939ac966e4a8ccafa911d15094e2ec3da174265"
+    },
+    "perf.lead-generation": {
+      "version": "1.0.0",
+      "file": "performance-marketing/lead-generation.md",
+      "sha256": "24f9716a3e393bbb1373704eeb18960bc84f08315b2b36a1a15d873eb4c0f3ba"
+    },
+    "perf.meta-ads": {
+      "version": "1.0.0",
+      "file": "performance-marketing/meta-ads.md",
+      "sha256": "186ff086739b5fbb21cdee87a76dc1c03bdc30267c2df1a37d9eb89c6270f814"
+    },
+    "re.agent-value": {
+      "version": "1.0.0",
+      "file": "real-estate/agent-value.md",
+      "sha256": "a1c80bad69867d30e3c62166be6cdbb4b2c758de4e3b4c546faae772363c6c75"
+    },
+    "re.benefit-communication": {
+      "version": "1.0.0",
+      "file": "real-estate/benefit-communication.md",
+      "sha256": "fe92111f164e34e7f724b78fabb2f011f2a8900b2a4a62303019ae9291d47116"
+    },
+    "realestate.campaign-goal-agent-brand": {
+      "version": "1.0.0",
+      "file": "real-estate/campaign-goal-agent-brand.md",
+      "sha256": "4dd10af0b3afaf69b03a3fafe2c02615f5d9027f8f6e88469e92d6ced0ec0430"
+    },
+    "realestate.campaign-goal-buyers": {
+      "version": "1.0.0",
+      "file": "real-estate/campaign-goal-buyers.md",
+      "sha256": "f8e4001c6f9a9f89990b94681c29e9d5c89a7c54dd8979026349fd12bc8c0eaf"
+    },
+    "realestate.campaign-goal-new-listing": {
+      "version": "1.0.0",
+      "file": "real-estate/campaign-goal-new-listing.md",
+      "sha256": "374de23ffeb3a48bce2e7ea86b401e643fc261e4046f196e1a98fd56a94f9e3c"
+    },
+    "realestate.campaign-goal-open-house": {
+      "version": "1.0.0",
+      "file": "real-estate/campaign-goal-open-house.md",
+      "sha256": "7370372ca60115cbf2d695373d1d6d4896d7078baa01d59a716b803826b47728"
+    },
+    "realestate.campaign-goal-premium": {
+      "version": "1.0.0",
+      "file": "real-estate/campaign-goal-premium.md",
+      "sha256": "aeb6ba011aeb06d3a638bb0d9e1bab0a7553bb11d05e2a18d0678239aa40b21f"
+    },
+    "realestate.campaign-goal-price-drop": {
+      "version": "1.0.0",
+      "file": "real-estate/campaign-goal-price-drop.md",
+      "sha256": "9b3d99530d25b416801d644b64afd70ffe7802b8e363a89915e235c3cbd4f66a"
+    },
+    "re.first-time-buyers": {
+      "version": "1.0.0",
+      "file": "real-estate/first-time-buyers.md",
+      "sha256": "4e43b4c9301025bd17b9400b68d2668ed523c414a574f89ea674485ebc09baf2"
+    },
+    "re.investor-communication": {
+      "version": "1.0.0",
+      "file": "real-estate/investor-communication.md",
+      "sha256": "feb7a915e6acf46053680960ffb605220ac009b9e4dbaf990d7595e2be2ee12e"
+    },
+    "re.listing-storytelling": {
+      "version": "1.0.0",
+      "file": "real-estate/listing-storytelling.md",
+      "sha256": "dc04b5f32a5be6ab51dbf6d2b5ded07e9196381d66beaf158faad13a92e19898"
+    },
+    "re.location-presentation": {
+      "version": "1.0.0",
+      "file": "real-estate/location-presentation.md",
+      "sha256": "0fb319427431cea73ce3a662e82c6579b37cec2f85cd4ee5b69e352e6e2e358f"
+    },
+    "re.market-content-without-data": {
+      "version": "1.0.0",
+      "file": "real-estate/market-content-without-data.md",
+      "sha256": "63ff3259b99140211cd80e900cdc888b12dc369f2ad70c9df9219d727f9a4f4b"
+    },
+    "re.owner-acquisition": {
+      "version": "1.0.0",
+      "file": "real-estate/owner-acquisition.md",
+      "sha256": "da780b93e816f0b865606b899b8e8cfbc5104bfa9c063cb9fc3f4d0626b53e1e"
+    },
+    "re.premium-listings": {
+      "version": "1.1.0",
+      "file": "real-estate/premium-listings.md",
+      "sha256": "9574ca40459178853a36630f2228d9e08f4b38765a51736091e79aa6106cc032"
+    },
+    "re.property-description-structure": {
+      "version": "1.0.0",
+      "file": "real-estate/property-description-structure.md",
+      "sha256": "648b1ccc09443a63ba493b55758af493553cbc495a3230ceabb5066d5516e6b3"
+    },
+    "re.rental-listings": {
+      "version": "1.0.0",
+      "file": "real-estate/rental-listings.md",
+      "sha256": "750ead7ce38420f05bf8c2a970662e8a235033b129e9b9af819e04535aba8a46"
+    },
+    "re.transaction-education": {
+      "version": "1.0.0",
+      "file": "real-estate/transaction-education.md",
+      "sha256": "5bf3ad4e66a1a2fbd7c12f1f83d1de048a210043da78ca476ff17a598a81a9a4"
+    },
+    "social.carousel-structure": {
+      "version": "1.0.0",
+      "file": "social-media/carousel-structure.md",
+      "sha256": "8d24860dda761c24c275f3e40ca143b0adfa8b22feb5bf85dce25debc9336856"
+    },
+    "social.educational-content": {
+      "version": "1.0.0",
+      "file": "social-media/educational-content.md",
+      "sha256": "dd6242d52c081520f2abcb7ba3b69c69eaeb5a83ac7e584b94a8b5b862e0277c"
+    },
+    "social.facebook": {
+      "version": "1.0.0",
+      "file": "social-media/facebook.md",
+      "sha256": "0b1cada5d084ac8abc0a06c77215699328ca311ccf53cf45670790eeb79c6980"
+    },
+    "social.hooks": {
+      "version": "1.0.0",
+      "file": "social-media/hooks.md",
+      "sha256": "a857d5298a5a42ab9e9adfc7b4a4f3c021c165663521ad4baf881c08889ae1e1"
+    },
+    "social.image-brand-content": {
+      "version": "1.0.0",
+      "file": "social-media/image-brand-content.md",
+      "sha256": "b4bda8e993d8d6f31e4fc8433f3e9254eb5b85c1c71f19cc7a3ba899de10932b"
+    },
+    "social.instagram": {
+      "version": "1.0.0",
+      "file": "social-media/instagram.md",
+      "sha256": "f13153ce7572e0fddb3da7fc05eb1fd7862a10ff621aeaf34cc7d6e8950584de"
+    },
+    "social.linkedin": {
+      "version": "1.0.0",
+      "file": "social-media/linkedin.md",
+      "sha256": "1e730d14eae981afb818d228b866ad61d3f13aebf462a2b0290dfa9474fac1e6"
+    },
+    "social.reels-motion": {
+      "version": "1.0.0",
+      "file": "social-media/reels-motion.md",
+      "sha256": "a3ccab931920aee15db5a9c8d4b4f6c604df19301c828c9f891fb66a95bd6315"
+    },
+    "social.reels-script": {
+      "version": "1.0.0",
+      "file": "social-media/reels-script.md",
+      "sha256": "99b4d0e2338b7fc22f275ededf77f41c962883b3c135a601908f0340bd1de4ad"
+    },
+    "social.sales-content": {
+      "version": "1.0.0",
+      "file": "social-media/sales-content.md",
+      "sha256": "136bd5f6ff0a067e10016d968c181cd1e6e912ec831f66c09c7fff5b0ea94929"
+    },
+    "social.series": {
+      "version": "1.0.0",
+      "file": "social-media/series.md",
+      "sha256": "df09bf18cefb1345cd0691e057e7ffedecabf8b8136c89191df36f681509c625"
+    },
+    "social.stories": {
+      "version": "1.0.0",
+      "file": "social-media/stories.md",
+      "sha256": "53b1417bf5510fa4f1e3c0b06f2de195425158c587a3ea079e760376b9dd46f0"
+    },
+    "social.tiktok": {
+      "version": "1.0.0",
+      "file": "social-media/tiktok.md",
+      "sha256": "5d936db4dac27babc62ede2e038bbd454bd6d6c90538438614d4b43580972a0b"
+    }
+  }
+}

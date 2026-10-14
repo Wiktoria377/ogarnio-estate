@@ -1,0 +1,12 @@
+import sharp from "sharp";
+import fs from "node:fs";
+const [dir, pattern, out, cols = "4", cell = "300"] = process.argv.slice(2);
+const files = fs.readdirSync(dir).filter((f) => new RegExp(pattern).test(f)).sort();
+const C = +cols, W = +cell;
+const imgs = await Promise.all(files.map(async (f) => { const b = await sharp(`${dir}/${f}`).resize({ width: W }).png().toBuffer(); const m = await sharp(b).metadata(); return { b, h: m.height, f }; }));
+const H = Math.max(...imgs.map((i) => i.h)) + 20;
+const rows = Math.ceil(imgs.length / C);
+const comp = imgs.map((im, i) => ({ input: im.b, left: (i % C) * (W + 10), top: Math.floor(i / C) * (H + 10) + 20 }));
+const labels = imgs.map((im, i) => ({ input: Buffer.from(`<svg width="${W}" height="18"><text x="2" y="14" font-size="13" font-family="sans-serif">${im.f}</text></svg>`), left: (i % C) * (W + 10), top: Math.floor(i / C) * (H + 10) }));
+await sharp({ create: { width: C * (W + 10), height: rows * (H + 10) + 20, channels: 3, background: "#ddd" } }).composite([...comp, ...labels]).jpeg({ quality: 80 }).toFile(out);
+console.log(files.length, "->", out);
