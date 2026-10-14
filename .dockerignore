@@ -1,0 +1,13 @@
+node_modules
+.next
+.next-build
+.remotion-bundle
+.data
+.git
+.env
+.env.local
+.env*.local
+test-results
+playwright-report
+coverage
+tsconfig.tsbuildinfo

@@ -12,7 +12,7 @@ Instrukcja uruchomienia aplikacji na produkcji. Kroki oznaczone **[konto zewnęt
 ## 2. Supabase
 
 1. Utwórz projekt (region UE). Zapisz `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` (tylko serwer).
-2. Zastosuj migracje **w kolejności nazw** z `supabase/migrations/` (14 plików, od `20261012000100_core_tenancy.sql` do `20261014000800_site_retention.sql`): `supabase db push` albo `psql -v ON_ERROR_STOP=1 -f <plik>` dla każdego. Na koniec `notify pgrst, 'reload schema';`.
+2. Migracje z `supabase/migrations/` (21 plików, od `20261012000100_core_tenancy.sql` do `20261015000700_recommendations.sql`) stosuje automatycznie kontener przy starcie (`scripts/migrate.mjs`, zmienna `DATABASE_URL`, kolejność nazw, rejestr w `supabase_migrations.schema_migrations`). Ręcznie: `DATABASE_URL=... node scripts/migrate.mjs` albo `supabase db push`. Instrukcja krok po kroku dla Supabase i Railway: `docs/URUCHOMIENIE.md`.
 3. Auth: włącz potwierdzanie e-maila, ustaw *Site URL* = adres aplikacji i *Redirect URLs* = `{SITE}/auth/callback`. Skonfiguruj własny SMTP w Auth (domyślny Supabase ma niskie limity).
 4. Storage: migracja `20261012000500_storage.sql` tworzy bucket i polityki. `STORAGE_DRIVER=supabase`.
 5. **Kopie zapasowe**: włącz Point-in-Time Recovery (plan Pro lub wyższy). Dodatkowo raz na dobę `pg_dump --format=custom` do zewnętrznego magazynu (inne konto/region) z retencją 30 dni oraz kopia bucketu Storage (np. `rclone sync`).
